@@ -356,7 +356,7 @@ st2web:
   # ingress:
   service:
     # type can be one of "ClusterIP", "NodePort", "LoadBalancer" or "ExternalName"
-    type: "NodePort"
+    type: "ClusterIP"
     # The hostname associated with st2web service (externalName, added to external DNS, etc.)
     hostname: ""
     # For more information regarding annotations, see
